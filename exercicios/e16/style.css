@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+body {
+    background-color: #303030;
+    color: #18063A;
+   
+}
+h1{
+    background-color: #18063A;
+     color: white;
+    text-align: center;
+}
+h2{
+    background-color: #8C7AAE;
+    color: #18063A;
+}
+p{
+    color: white;
+    text-align: justify;
+}
+ol{
+
+    color: white;
+    text-align: justify;
+
+}
+ins{
+    color: white;
+    text-align: justify;
+}
+li::marker {
+    color: #18063A;
+    background-color: black;
+  }
+
+  article {
+    display: list-item;
+    margin: 20px;
+  }
+  
+  span {
+    background-color: black;
+    color: white;
+    margin: 1px;
+    padding: 10px;
+    border-radius: 7px;
+  }
+  
+  article::marker {
+    color: red;
+  }
+
+  a{
+    color: #ffffff;
+  }
+  div{
+   align-items: center;
+  }
