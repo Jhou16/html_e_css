@@ -5,9 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu portifólio</title>
     <style>
-    body {
-        background-color: #4C3650;
+        @import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+    *{
+padding: 0px;
+margin: 0px;
+    }
+        body {
+        background-color: #371838;
         color: white;
+        padding: 20px;
+        
         }
         img{
             margin: auto;
@@ -24,30 +31,43 @@
             border: 8px solid rgb(61, 0, 61);
         }
         nav{
-            background-color: purple;
+            background-color: rgb(63, 0, 63);
             max-width: 10000px;
             margin: auto;
-            padding: 10px;
+            padding: 15px;
             border-radius: 10px;
+        
+            
         }
         a{
-            margin: 0px 10px 0px 10px;
+            margin: 0px 0px 10px 10px;
             text-decoration: none;
+            color: rgb(255, 0, 212);
+            font-weight: bolder;
+            font-size: 1em;
+            padding:10px;
+
+        }
+        a:hover{
+            background-color: #24002b;
+            border-radius: 10px;
         }
         h1{
            display: block;
            text-align: center;
+           text-shadow: 5px 4px 7px black;
         }
         h3{
             text-align: center;
         }
         div{
-            border: 10px solid #703E7A;
+            border: 5px solid #703E7A;
             
             width: 400px;
             margin: auto;
             border-radius: 30px;
             padding: 20px;
+            display: inline-block;
         }
         div:hover{
             background-color: #703E7A;
@@ -59,6 +79,21 @@
         li{
             font-weight: lighter;
         }
+        h5{
+            font-weight: bolder;
+            color: black;
+            display: inline;
+            font-size: 2em;
+            padding: 0px;
+            margin: 0px;
+            font-family: "Poetsen One", sans-serif;
+        }
+        h2{
+            text-align: center;
+            text-decoration: underline;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
     </style>
 
 
@@ -67,8 +102,9 @@
 
 <body> 
     <nav>
-        <a href="#">Home</a>
-        <a href="#">Sobre mim</a>
+        
+        <a class="link" href="#">Home</a>
+        <a class = "link" href="#">Sobre mim</a>
     </nav>
 
     
@@ -78,13 +114,20 @@
 <a href="https://www.youtube.com/shorts/Y0ALqqVeT7c"><img src="image.png" alt="eu ai"> </a>
 
 <h3>Bom, esse cara ai sou eu</h3>
-
+<h2>Minhas qualidades</h2>
 <div>
-    <h2>Minhas qualidades</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quae, molestias delectus quia adipisci corporis quasi obcaecati consequuntur nihil fugit. Reiciendis voluptatum magnam ea. Facere, inventore. Repudiandae ad soluta enim.</p>
+    </div>
+<div>
+    
     <h4>Bom, as tecnologias que eu mais me garanto são:</h4>
      <ul>
         <li>Sou formado em um curso de operador de sistema</li>
         <li>Estou cursando Html e CSS</li>
      </ul>
     <p>Com o professor Guanabara</p>
+</div>
+
+<div>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis nulla, ad molestiae cumque odit earum eos reiciendis rem magnam esse voluptas ipsum sint id quasi? Fugit iusto maxime praesentium. Nam.</p>
 </div>
