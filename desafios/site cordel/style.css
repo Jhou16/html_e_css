@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-color: black;
+}
+.texto{
+    background-color: white;
+}
+#img1{
+    background-image: url(imagens/background001.jpg);
+}
+#img2{
+background-image: url(imagens/background002.jpg);
+}
